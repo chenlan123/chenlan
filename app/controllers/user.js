@@ -123,3 +123,67 @@ exports.logout = async function(ctx, next) {
   delete ctx.session.user;
   ctx.redirect('/');
 }
+//about
+exports.about = async function(ctx, next) {
+  await ctx.render('pages/user/about', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//hezuo
+exports.hezuo = async function(ctx, next) {
+  await ctx.render('pages/user/hezuo', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//shengchan
+exports.shengchan = async function(ctx, next) {
+  await ctx.render('pages/user/shengchan', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//chanpin
+exports.chanpin = async function(ctx, next) {
+  await ctx.render('pages/user/chanpin', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//lianxi
+//chanpin
+exports.lianxi = async function(ctx, next) {
+  await ctx.render('pages/user/lianxi', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//two
+exports.two = async function(ctx, next) {
+  await ctx.render('pages/user/two', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//chanpin2
+exports.chanpin2 = async function(ctx, next) {
+  await ctx.render('pages/user/chanpin2', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//chanpin3
+exports.chanpin3 = async function(ctx, next) {
+  await ctx.render('pages/user/chanpin3', {
+    title: '用户登录',
+    info: ''
+  });
+}
+//在线留言
+exports.message = async function(ctx, next) {
+  await ctx.render('pages/user/message', {
+    title: '用户登录',
+    info: ''
+  });
+}

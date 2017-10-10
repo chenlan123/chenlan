@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%- title%></title>
+  <%- include('../../includes/head.html') %>
+  <style type="text/css" media="screen">
+    body {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .jun_con{
+        background-image:url(img/aolike3.jpg);
+        background-size:cover;
+        width:1300px;
+        height:200px;
+
+    }
+    .guan_con{
+
+      width: 300px;
+  }
+  .guan2_con{
+
+    width: 700px;
+    height: 500px;
+}
+.anjian{
+    margin:0 auto; width:400px; height:100px; text-align:center;
+}
+
+
+
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">嘉善奥力科机械制造有限公司</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse navbar-right">
+        <a class="navbar-brand" href="/login">登录</a>
+        <a class="navbar-brand" href="/register">注册</a>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container jun_con">
+
+      <h1>嘉善奥力科机械制造有限公司欢迎您</h1>
+      <p><marquee>如果您有什么疑问或建议，请拨打以下 电话联系我们：+86-573-84731367</marquee></p>
+
+    </div>
+  </div>
+  <div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+      <li class="active"><a href="/lianxi">联系我们<span class="sr-only">(current)</span></a></li>
+    </ul>
+    <ul class="nav nav-sidebar">
+      <li><a href="#">在线留言</a></li>
+
+    </ul>
+
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4 guan_con">
+        <h3>在线留言</h3>
+      <img src="img/cc.gif" >
+
+  </div>
+  <div class="col-md-4 guan2_con">
+ <p><font color="#8E8E8E"size="4"weight="hold">
+  如果您对我们的产品或服务有什么疑问请填写下面的表格我们将尽快回复您。谢谢!</font></p>
+  <br/>
+  <form action="form_action.asp" method="get">
+  <p>主题:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="fname"size="70" /></p>
+  <p>姓名:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<input type="text" name="lname"size="70" /></p>
+  <p>公司名称:&nbsp;&nbsp; <input type="text" name="cname"size="70" /></p>
+  <p>电子邮件:&nbsp;&nbsp; <input type="text" name="mname"size="70" /></p>
+    详情：<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="6" cols="70"></textarea>
+    <div class="anjian">
+      <input name="sub"type="submit"value="提交">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+      <input name="reset"type="reset"value="重置"></div>
+</form>
+
+</div>
+
+
+  </div>
+  <hr>
+
+  <footer>
+    <p align="right">版权所有 © 嘉善奥力科机械制造有限公司 浙ICP备[10209188]号 </p>
+  </footer> <!-- /container -->
+</body>
+</html>

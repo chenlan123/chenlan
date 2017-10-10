@@ -18,6 +18,20 @@ router
   .post('/register', User.register)     //用户注册操作
   .get('/individual/main', Individual.main)   //个人主页面
   .get('/company/main', Company.main)         //企业主页面
+  .get('/about',User.about)//关于我们
+  .get('/hezuo',User.hezuo)//合作企业
+  .get('/shengchan',User.shengchan)//生产能力
+  .get('/chanpin',User.chanpin)//生产能力
+  .get('/lianxi',User.lianxi)//联系我们
+  .get('/two',User.two)//下一页
+  .get('/chanpin2',User.chanpin2)//第二类产品
+  .get('/chanpin3',User.chanpin3)//第三类产品
+  .get('/message',User.message)//在线留言
+
+
+
+
+
 
   //individual
   .get('/individual/hot', Individual.hot)  //加热炉
@@ -37,6 +51,7 @@ router
   .get('/individual/cuijia',Individual.cuijia)//淬火炉项目添加页面
   .get('/individual/huijia',Individual.huijia)//回火炉项目添加页面
   .get('/individual/lengjia',Individual.lengjia)//冷却炉项目添加页面
+
 
 
 
